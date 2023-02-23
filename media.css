@@ -1,0 +1,407 @@
+@charset "UTF-8";
+
+@media (max-width:479px) {
+    h1 {
+        font-size: 20pt;
+        padding-top: 5vh;
+    }
+
+    #txth2 > h2 {
+        font-size: 13pt;
+        padding-top: 10vh;
+    }
+
+    #op {
+        margin-top: 8vh;
+    }
+
+    .options {
+        height: 13vh;
+        width: 18vw;
+    }
+
+    p {
+        font-size: 0.7rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    input {
+        margin-top: 15px;
+        width: 16vw;
+    }
+
+    footer {
+        font-size: 1rem;
+        margin-top: 5vh;
+    }
+
+}
+
+@media (width:768px){
+    #base {
+        margin-top: 5rem;
+    }
+    h1 {
+        font-size: 3.8rem;
+        padding-top: 3rem;
+    }
+
+    #txth2 > h2 {
+        font-size: 2rem;
+        margin-top: -40px;
+    }
+
+    #op {
+        margin-top: 10vh;
+    }
+
+    .options {
+        height: 14vh;
+        width: 18vw;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 4.7rem;
+    }
+
+    input {
+        margin-top: 17px;
+        width: 16vw;
+        font-size: 1.8rem;
+    }
+
+    .visor {
+        height: 3.5rem;
+    }
+
+    .count > p {
+        font-size: 2rem;
+    }
+
+    .count {
+        margin-top: 3rem;
+    }
+
+}
+
+@media (width:1094px) {
+    #base {
+        margin-top: 6rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+        padding-top: 3.5rem;
+    }
+
+    #txth2 > h2 {
+        font-size: 3rem;
+        padding-top: 10vh;
+    }
+
+    #op {
+        margin-top: 10vh;
+    }
+
+    .options {
+        height: 14vh;
+        width: 18vw;
+    }
+
+    p {
+        font-size: 2.3rem;
+    }
+
+    h3 {
+        font-size: 6rem;
+    }
+
+    input {
+        margin-top: 17px;
+        width: 16vw;
+        font-size: 2.5rem;
+    }
+
+    .visor {
+        height: 4.5rem;
+    }
+
+    .count > p {
+        font-size: 3rem;
+    }
+
+    .count {
+        margin-top: 3rem;
+    }
+
+    footer {
+        font-size: 2.5rem;
+    }
+}
+
+@media (width:1400px) {
+    #base {
+        margin-top: 6rem;
+    }
+
+    h1 {
+        font-size: 7rem;
+        padding-top: 4rem;
+    }
+
+    #txth2 > h2 {
+        font-size: 3.8rem;
+        padding-top: 10vh;
+    }
+
+    #op {
+        margin-top: 10vh;
+    }
+
+    .options {
+        height: 15vh;
+        width: 18vw;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 7.5rem;
+    }
+
+    input {
+        margin-top: 17px;
+        width: 16vw;
+        font-size: 2.5rem;
+    }
+
+    .visor {
+        height: 5.5rem;
+
+    }
+
+    .count > p {
+        font-size: 4rem;
+    }
+
+    .count {
+        margin-top: 3rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .c {
+        margin-left: -3.5vh;
+    }    
+
+    footer {
+        font-size: 3.5rem;
+    }
+}
+
+@media (width:1671px) {
+    #base {
+        margin-top: 8rem;
+    }
+
+    h1 {
+        font-size: 9rem;
+        padding-top: 4rem;
+    }
+
+    #txth2 > h2 {
+        font-size: 4.5rem;
+        padding-top: 5vh;
+    }
+
+    #op {
+        margin-top: 5vh;
+    }
+
+    .options {
+        height: 20vh;
+        width: 18vw;
+    }
+
+    p {
+        font-size: 3.8rem;
+    }
+
+    h3 {
+        font-size: 13.5rem;
+    }
+
+    input {
+        margin-top: 60px;
+        width: 16vw;
+        font-size: 4rem;
+    }
+
+    .visor {
+        height: 7rem;
+
+    }
+
+    .count > p {
+        font-size: 5rem;
+    }
+
+    .space {
+        display: inline-block;
+        width: 7vh;
+        height: 200px;
+    }
+
+    .count {
+        margin-top: 5rem;
+    }
+
+    .c {
+        margin-left: -5.4vw;
+    }    
+
+    footer {
+        font-size: 4rem;
+    }
+}
+
+@media (width:2001px) {
+    #base {
+        margin-top: 10rem;
+    }
+
+    h1 {
+        font-size: 11rem;
+        padding-top: 4rem;
+    }
+
+    #txth2 > h2 {
+        font-size: 5.3rem;
+        padding-top: 5vh;
+    }
+
+    #op {
+        margin-top: 5vh;
+    }
+
+    .options {
+        height: 20vh;
+        width: 18vw;
+    }
+
+    p {
+        font-size: 4.6rem;
+    }
+
+    h3 {
+        font-size: 17rem;
+    }
+
+    input {
+        margin-top: 80px;
+        width: 16vw;
+        font-size: 4rem;
+    }
+
+    .visor {
+        height: 7rem;
+
+    }
+
+    .count > p {
+        font-size: 5rem;
+    }
+
+    .space {
+        display: inline-block;
+        width: 7vh;
+        height: 200px;
+    }
+
+    .count {
+        margin-top: 5rem;
+    }
+
+    .c {
+        margin-left: -5.4vw;
+    }    
+
+    footer {
+        font-size: 5rem;
+    }
+}
+
+@media (width:2560px) {
+    #base {
+        margin-top: 15rem;
+    }
+
+    h1 {
+        font-size: 14rem;
+        padding-top: 6rem;
+    }
+
+    #txth2 > h2 {
+        font-size: 7rem;
+        padding-top: 7vh;
+    }
+
+    #op {
+        margin-top: 7vh;
+    }
+
+    .options {
+        height: 23vh;
+        width: 18vw;
+    }
+
+    p {
+        font-size: 5.8rem;
+    }
+
+    h3 {
+        font-size: 25rem;
+    }
+
+    input {
+        margin-top: 80px;
+        width: 16vw;
+        font-size: 6rem;
+    }
+
+    .visor {
+        height: 10rem;
+
+    }
+
+    .count > p {
+        font-size: 8rem;
+    }
+
+    .space {
+        display: inline-block;
+        width: 20vw;
+        height: 200px;
+    }
+
+    .count {
+        margin-top: 8rem;
+    }
+
+    .c {
+        margin-left: -8vw;
+    }    
+
+    footer {
+        font-size: 6.5rem;
+    }
+}
