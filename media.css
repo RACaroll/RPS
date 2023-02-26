@@ -8,11 +8,10 @@
 
     #txth2 > h2 {
         font-size: 13pt;
-        padding-top: 10vh;
     }
 
     #op {
-        margin-top: 8vh;
+        margin-top: 0vh;
     }
 
     .options {
@@ -21,16 +20,16 @@
     }
 
     p {
-        font-size: 0.7rem;
+        font-size: .7rem;
     }
 
     h3 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     input {
         margin-top: 15px;
-        width: 16vw;
+        width: 19vw;
     }
 
     footer {
@@ -38,9 +37,23 @@
         margin-top: 5vh;
     }
 
+    .visor {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .count > p {
+        font-size: 1.2rem;
+    }
+
+    .count {
+        margin-top: 3rem;
+    }
+
+
 }
 
-@media (width:768px){
+@media (min-width:768px){
     #base {
         margin-top: 5rem;
     }
@@ -59,7 +72,7 @@
     }
 
     .options {
-        height: 14vh;
+        height: 22vh;
         width: 18vw;
     }
 
@@ -91,7 +104,7 @@
 
 }
 
-@media (width:1094px) {
+@media (min-width:1094px) {
     #base {
         margin-top: 6rem;
     }
@@ -146,7 +159,7 @@
     }
 }
 
-@media (width:1400px) {
+@media (min-width:1400px) {
     #base {
         margin-top: 6rem;
     }
@@ -166,7 +179,7 @@
     }
 
     .options {
-        height: 15vh;
+        height: 36vh;
         width: 18vw;
     }
 
@@ -208,7 +221,7 @@
     }
 }
 
-@media (width:1671px) {
+@media (min-width:1671px) {
     #base {
         margin-top: 8rem;
     }
@@ -274,7 +287,7 @@
     }
 }
 
-@media (width:2001px) {
+@media (min-width:2001px) {
     #base {
         margin-top: 10rem;
     }
@@ -340,7 +353,7 @@
     }
 }
 
-@media (width:2560px) {
+@media (min-width:2560px) {
     #base {
         margin-top: 15rem;
     }
