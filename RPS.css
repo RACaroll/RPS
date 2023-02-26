@@ -132,6 +132,11 @@ footer {
     width: 6vw;
     border-radius: 3%;
     text-align: center;
+    font-size: 10pt;
+}
+
+.visor > p {
+    font-size: 40pt;
 }
 
 .count > p {
