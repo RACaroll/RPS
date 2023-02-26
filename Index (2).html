@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="RPS.css">
+        <link rel="stylesheet" href="media.css">
+        <title>Rock, paper, scissors</title>
+    </head>
+
+    <body>
+        <div id="base">
+            <div id="txt">
+                <div id="txth1">
+                    <h1>ROCK, PAPER, SCISSORS</h1>
+                </div>
+                <div id="res">
+                    
+                    <div class="options" id="you">
+                        <h3 id="resy"></h3>
+                        <p id="resp">YOU</p>
+                    </div>
+                    <div class="options" id="comp">
+                        <h3 id="resc"></h3>
+                        <p id="resp">COMPUTER</p>
+                    </div>
+                    
+                </div>
+                <div id="txth2">
+                    <h2>WHICH ONE DO YOU CHOOSE:</h2>
+                </div>
+            </div>
+            
+            <div id="op">
+                <div class="options" id="rock" onclick="chooser()">
+                    <h3 class="big">&#9994;</h3>
+                    <p>ROCK</p>
+                </div>
+                <div class="options" id="paper" onclick="choosep()">
+                    <h3 class="big">&#128195;</h3>
+                    <p>PAPER</p>
+                </div>
+                <div class="options" id="scissors" onclick="chooses()">
+                    <h3 class="small">&#9986;</h3>
+                    <p>SCISSORS</p>
+                </div>
+            </div>
+            <div id="button">
+                <input type="button" value="START!" onclick="action()">
+            </div>
+            <div class="counter">
+                <div class="d-in count">
+                    <div id="youV" class="d-in visor">
+                        <p></p>
+                    </div><br>
+                    <p class="d-in y">YOU </p>
+                </div>
+                <div class="space"></div>
+                <div class="d-in count">
+                    <div id="comV" class="d-in visor">
+                        <p></p>
+                    </div><br>
+                    <p class="d-in c">COMPUTER </p>
+                </div>
+            </div>
+        </div>
+        <footer>&copy; Caroll Almeida</footer>
+        <script src="RPS.js"></script>
+    </body>
+
+</html>
